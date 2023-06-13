@@ -18,4 +18,8 @@ public class Lingkaran {
     public double keliling(){
         return 2 * 3.14 * radius;
     }
+    
+    public Lingkaran(double radius){
+        this.radius = radius;
+    }
 }
